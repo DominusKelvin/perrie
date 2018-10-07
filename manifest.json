@@ -10,7 +10,12 @@
     "js": ["content.js"]
   }],
   "browser_action": {
-    "default_icon": "images/icon.png"
+    "default_icon": {
+      "16": "images/perrie16.png",
+      "32": "images/perrie32.png",
+      "48": "images/perrie48.png",
+      "128": "images/perrie128.png"
+    }
   },
   "background": {
     "scripts": ["background.js"]
