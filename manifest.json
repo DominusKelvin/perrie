@@ -2,7 +2,7 @@
   "name": "perrie",
   "version": "1.0",
   "description": "perrie: A chrome extension that simulates how a color blinded user perceives a webpage",
-  "persmission": ["activeTab"],
+  "permissions": ["activeTab"],
   "content_scripts": [{
     "matches": [
       "<all_urls>"
@@ -19,6 +19,7 @@
   },
   "background": {
     "scripts": ["background.js"]
-  }
+  },
+  "manifest_version": 2
 
 }
